@@ -1,1 +1,571 @@
-<h1>Hola mundo!</h1>
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	<!-- script PARA HACERLO COMPATIBLE CON NAVEGADORES-->
+	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+
+		<title>Residencia de seÃ±oritas</title>
+		<link rel="icon" type="image/x-icon" href="/favicon.ico">	
+		<!-- scripts SECCIÃN-2. GRÃFICOS DATOS MUJERES -->
+		<link rel="stylesheet" href="style_d3.css">
+		<link rel="stylesheet" href="styles.css" media="screen,print">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+		<script src = 'd3.js'></script>
+		<script src = 'https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js'></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+		<!-- Load d3.js -->
+		<script src="https://d3js.org/d3.v4.js"></script>
+	</head>
+	<body>
+		<div class="bgimg-1" style="width: 100%; height: 100%;">
+		  <div style="width: 100%; margin-top: -45px;" class="caption">
+				<span class="fadeInUp-animation" style="padding-left:5%; ">MujeResID</span> 
+				<div class="fadeInUp-animation"><p  class="parrafointro"  style="padding-left:5%; padding-bottom: 1%;width:56%;  ">
+					La Residencia de SeÃ±oritas, el grupo femenino de la Residencia de Estudiantes fundado en 1915 en Madrid bajo la direcciÃ³n de MarÃ­a de Maeztu, 
+					fue la primera instituciÃ³n oficial en EspaÃ±a dedicada a <u> la educaciÃ³n superior de mujeres. </u>Promovida por la Junta para 
+					AmpliaciÃ³n de Estudios (JAE), e inspirada en los ideales de la InstituciÃ³n Libre de EnseÃ±anza (ILE), tenÃ­a como objetivo principal proporcionar a las 
+					mujeres acceso a una educaciÃ³n de calidad y fomentar su desarrollo intelectual y personal. En MujeResID hemos extraÃ­do y analizado los datos 
+					de los libros de registro de alumnas con las <u>cerca de 3.000 mujeres que residieron o visitaron la Residencia</u> 
+					combinados con los de otras diversas fuentes relacionadas con el objetivo de visibilizarlas. Mujeres <u> pioneras</u>, 
+					muchas anÃ³nimas, que abrieron camino en la educaciÃ³n superior igualitaria, iniciativa que se vio truncada en 1936 por el estallido de la guerra civil.
+					</p> 
+
+				
+				  <span class="bajar" style=" width: 40%; padding-left: 15%;" >HAZ SCROLL PARA VER MÃS</span>
+				</div>
+			
+			  
+	<div class="bgimg-1">
+		<div class="caption">
+					</div>
+				</div>
+			
+				<div class="fadeInUp-animation" style="width:25%; margin-left:60%; padding-top: -32%;">
+					<p class="titchat"  style="width: 100%;">Pon a prueba el chatbot VictorIA</p>
+					<p class="textochat" >
+				Alimentado con datos de la Residencia de SeÃ±oritas y artÃ­culos acadÃ©micos. 
+					Tenemos voluntad de transparencia con las fuentes. Puedes consultarlas en la metodologÃ­a o tambiÃ©n se las puedes pedir a VictorIA.
+					 <br>Abre y cierra el bot apretando en el icono del chatbot</p>
+				</div>
+			</div>	   
+		</div>
+		
+		<!-- SECCIÃN-1. CRONOLOGÃA -->
+		<div style="color: #777;background-color:white; width:auto; margin-top: 50px; margin-bottom:50px">  
+		<div id="g-Crono-box">
+		<!-- Artboard: Mesa_de_trabajo_1 -->
+		
+			  <div id="g-Crono" class="g-artboard" style="max-width: 100%; max-height: 100%" data-aspect-ratio="0.969" data-min-width="0">
+			  <div style="padding: 0 0 103.1951% 0;"></div>
+			  <img id="g-Crono-img" class="g-Crono-img g-aiImg" alt="" src="IMAGE/fondo-crono.jpg"/>
+			  <div id="g-ai0-1" class="g-Capa_1 g-aiAbs g-aiPointText" style="top:6.6608%;margin-top:-59px;left:5%;width:516px;">
+				<p class="g-pstyle0">El sinuoso camino hacia</p>
+				<p class="g-pstyle0">la formaciÃ³n superior</p>
+			  </div>
+				<div id="g-ai0-2" class="g-Capa_1 g-aiAbs g-aiPointText" style="top:15.0094%;margin-top:-19.6px;left:5%;width:286px;">
+					  <p class="g-pstyle1">Antecedentes</p>
+			    </div>
+				  <div id="g-ai0-3" class="g-Capa_1 g-aiAbs" style="top:15.2%;left:44%;width:15.0037%;">
+					  <p class="g-pstyle2">Fernando de Castro crea la AsociaciÃ³n para la EnseÃ±anza de la Mujer</p>
+				  </div>
+
+				<div id="g-ai0-5" class="g-Capa_1 g-aiAbs" style="top:16.8%;left:5%;width:22.5%;">
+					  <p class="g-pstyle4">A finales del siglo XIX y principios del XX, EspaÃ±a experimentÃ³ cambios en la educaciÃ³n y los derechos de las mujeres, 
+						impulsados por asociaciones feministas y movimientos reformistas que desafiaron la <u>exclusiÃ³n femenina de la educaciÃ³n superior.</u><br>
+						La <u>InstituciÃ³n Libre de EnseÃ±anza (ILE)</u>, fundada en 1876 por Francisco Giner de los RÃ­os, fue clave para promover 
+						una educaciÃ³n moderna y laica que incluÃ­a a las mujeres. Aunque al inicio pocas mujeres lograron ingresar en la universidad, 
+						enfrentando fuertes resistencias, estos avances prepararon el terreno para la creaciÃ³n de la Residencia de SeÃ±oritas.</p>
+					  </div>
+				  <div id="g-ai0-6" class="g-Capa_1 g-aiAbs" style="top:22%;left:44%;width:17%;">
+					  <p class="g-pstyle2">Congreso Nacional PedagÃ³gico en Madrid. Entre sus propuestas, se presentan  medidas relacionadas con la educaciÃ³n de la mujer, con un Ã©xito moderado</p>
+				  </div>
+		
+				  <div id="g-ai0-8" class="g-Capa_1 g-aiAbs g-aiPointText" style="top:30.2541%;margin-top:-8.4px;left:64%;width:283px;">
+					  <p class="g-pstyle6">Alumnas de la AsociaciÃ³n para la EnseÃ±anza de la Mujer</p>
+				  </div>
+				  <div id="g-ai0-9" class="g-Capa_1 g-aiAbs" style="top:32.5%;left:41.5%;width:24.5%;">
+					  <p class="g-pstyle2">Congreso PedagÃ³gico Hispano-PortuguÃ©s-Americano. La secciÃ³n de educaciÃ³n y aptitud profesional de la mujer fue la mÃ¡s debatida. Destacaron Berta Wilhelmi, Emilia Pardo BazÃ¡n y ConcepciÃ³n Arenal. </p>
+				  </div>
+		
+				  <div id="g-ai0-11" class="g-Capa_1 g-aiAbs g-aiPointText" style="top:42.98%;margin-top:-16.1px;left:68.5%;width:93px;">
+					  <p class="g-pstyle6">Emilia </p>
+					  <p class="g-pstyle6">Pardo BazÃ¡n</p>
+				  </div>
+				  <div id="g-ai0-12" class="g-Capa_1 g-aiAbs g-aiPointText" style="top:42.98%;margin-top:-16.1px;left:78.5%;width:96px;">
+					  <p class="g-pstyle6"> ConcepciÃ³n </p>
+					  <p class="g-pstyle6">Arenal</p>
+				  </div>
+				  <div id="g-ai0-13" class="g-Capa_1 g-aiAbs g-aiPointText" style="top:43.0516%;margin-top:-16.1px;left:88%;width:69px;">
+					  <p class="g-pstyle6">Berta<br>Wilhelmi </p>
+				  </div>
+				  <div id="g-ai0-14" class="g-Capa_1 g-aiAbs" style="top:43%;left:39%;width:25%;">
+					  <p class="g-pstyle2">Alice Gordon Gulick crea en Boston la CorporaciÃ³n del International Institute for Girls in Spain</p>
+					  
+				  </div>
+				  <div id="g-ai0-15" class="g-Capa_1 g-aiAbs" style="top:49%;left:35.5%;width:25%;">
+					  <p class="g-pstyle2">El Instituto Internacional creado por el matrimonio Gulick se establece en Madrid, en la calle de Fortuny</p>
+				  </div>
+			
+				  <div id="g-ai0-17" class="g-Capa_1 g-aiAbs" style="top:55.7%;left:37%;width:20%;">
+					  <p class="g-pstyle2">CreaciÃ³n de la Escuela de Estudios Superiores del Magisterio en Madrid</p>
+				  </div>
+		
+				  <div id="g-ai0-19" class="g-Capa_1 g-aiAbs" style="top:60.8%;left:46.5%;width:15%;">
+					  <p class="g-pstyle2">El Instituto Internacional for Girls inaugura su nuevo edificio en la calle Miguel Ãngel</p>
+			  
+				  </div>
+				<div id="g-ai0-20" class="g-Capa_1 g-aiAbs g-aiPointText" style="top:64%;margin-top:-36.4px;left:5%;width:224px;">
+					  <p class="g-pstyle11">Residencia<br>de Estudiantes</p>
+			  
+				  </div>
+				  <div id="g-ai0-21" class="g-Capa_1 g-aiAbs g-aiPointText" style="top:63.2716%;margin-top:-6px;left:64.5%;width:322px;">
+					  <p class="g-pstyle6">Sede del Instituto Internacional en la calle Miguel Ãngel de Madrid</p>
+				  </div>
+			
+			
+				  <div id="g-ai0-30" class="g-Capa_1 g-aiAbs g-aiPointText" style="top:82%;margin-top:-17.4px;left:12%;width:32%">
+					  <p class="g-pstyle8">1915<br>Nace <br>la Residencia <br>de SeÃ±oritas</p>
+				  
+				  </div>
+				  <div id="g-ai0-23" class="g-Capa_1 g-aiAbs" style="top:67%;left:49%;width:26%;">
+					  <p class="g-pstyle9">Se crea la Residencia de Estudiantes, que se aloja en la calle de Fortuny, 14 </p>
+				  
+				  </div>
+				<div id="g-ai0-24" class="g-Capa_1 g-aiAbs" style="top:67%;left:5%;width:23%;">
+					  <p class="g-pstyle4">La Residencia de Estudiantes se funda en 1910. Cinco aÃ±os despuÃ©s nace su grupo femenino,
+						la Residencia de SeÃ±oritas. Fue una iniciativa de la Junta para AmpliaciÃ³n de Estudios e Investigaciones CientÃ­ficas 
+						(JAE) y se convirtiÃ³ en un <mark class="mark">importante centro cultural y educativo. </mark></p>
+					</div>
+				  <div id="g-ai0-25" class="g-Capa_1 g-aiAbs" style="top:72%;left:50.7%;width:24%;">
+					  <p class="g-pstyle2">Derogada la Real Orden de 1888 que exigÃ­a a las mujeres un permiso especial para acceder a la Universidad. <mark class="mark">LIBRE ACCESO DE LAS MUJERES A LA UNIVERSIDAD .</mark></p>
+					  
+				  </div>
+				  <div id="g-ai0-26" class="g-Capa_1 g-aiAbs" style="top:79.2134%;left:52%;width:22%;">
+					  <p class="g-pstyle2">El grupo universitario de la Residencia de Estudiantes se traslada a su sede definitiva en la calle del Pinar</p>
+				  </div>
+				  <div id="g-ai0-27" class="g-Capa_1 g-aiAbs g-aiPointText" style="top:86%;margin-top:-28px;left:78.8%; width:10%">
+					  <p class="g-pstyle6">Maria de Maeztu acabÃ³ FilosofÃ­a<br>y Letras en la Universidad<br>Central de Madrid en 1915<br>con premio extraordinario</p>
+				  </div>
+				  <div id="g-ai0-28" class="g-Capa_1 g-aiAbs" style="top:85%;left:50.5%;width:24.9815%;">
+					  <p class="g-pstyle12">Abre sus puertas el grupo femenino, la Residencia de SeÃ±oritas, dirigida por MarÃ­a de Maeztu.</p>
+				  </div>
+				  <div id="g-ai0-29" class="g-Capa_1 g-aiAbs" style="top:91%;left:50.5%;width:21%;">
+					  <p class="g-pstyle13">Se instalan en dos de los edificios hasta entonces ocupados por el grupo masculino, en la calle Fortuny, 28-30</p>
+				  </div>
+			  </div>
+		  </div> 
+		</div>
+		  
+	
+<div class="bgimg-2">
+  <div class="caption" style="padding-left: 5.4%" >
+			<span class="Titul" >Mujeres en la Residencia</span>
+		  </div>
+		  <!-- <div class="" style=" width:33%; padding-top: 490px; padding-left: 5.4%;position: absolute;bottom: 0;"> -->
+			<div class="fadeInUp-animation" style=" width:32%; padding-top: 790px; padding-left: 5.4%">
+				<p class="piedefotobg">
+				<!-- <p class="piedefotobg" style="position: absolute;bottom: 0;width: 60%;"> -->
+				Residentes en la biblioteca de la Residencia de SeÃ±oritas en Miguel Ãngel, 8, hacia 1930. Instituto Internacional en EspaÃ±a
+			</p>
+		  </div> 
+		</div>
+		  <!-- SECCIÃN-2. GRÃFICOS DATOS MUJERES EN LA RESIDENCIA -->
+		
+		  
+	 <section style="position:relative; background-color:white; padding-left:5.4%; padding-top:4% ; height: 850px;">
+		  <article  class="left_article" >
+						<span class="tituloseccion" > Mujeres que pasaron <br>por la Residencia</span>
+	
+				<div class="fadeInUp-animation" style="width: 100%" ><p class="parrafoseccion" style="padding-top:5%" >
+					La Residencia de SeÃ±oritas experimentÃ³ un notable crecimiento desde su fundaciÃ³n en 1915 hasta 1936. 
+					Durante estos aÃ±os, se convirtiÃ³ en un importante centro de formaciÃ³n y de acogida de residentes matriculadas 
+					en diferentes instituciones educativas de Madrid. <u>Mujeres de clase media y media alta</u>, 
+					e incluso, algunas ayudadas con <u> becas y con âprÃ©stamos de honorâ </u> en los Ãºltimos aÃ±os, 
+					venÃ­an para hacer desde cursos, a estudios de educaciÃ³n media y superior. El nÃºmero de residentes creciÃ³ significativamente, 
+					directamente en correlaciÃ³n con el nÃºmero de mujeres que accedÃ­an a la educaciÃ³n universitaria. 
+					SegÃºn la investigadora Raquel VÃ¡zquel Ramil (2012), en el curso 1914-1915 habÃ­a 90 universitarias 
+					matriculadas en toda EspaÃ±a, mientras que en 1932-1933 el nÃºmero ascendiÃ³ a 2.047, <a href="https://dialnet.unirioja.es/servlet/articulo?codigo=5708808">siendo la Universidad Central 
+					de Madrid la que tenÃ­a un mayor porcentaje de alumnas matriculadas, representando el 34,4% del total en 1915. </a>
+					Aun asÃ­, en los aÃ±os 30, <u>solo un 6% de las matriculadas en la universidad eran mujeres.</u>
+
+				</p></div>
+			</article>
+	
+				
+				<!-- FLOURISH-1 --> 
+			<aside class="right_article"><iframe src='https://flo.uri.sh/visualisation/18672033/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%; height:600px' 
+				sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox 
+				allow-top-navigation-by-user-activation'></iframe> </aside>
+			  
+		</section>
+		
+		
+			<!-- SECCIÃN-2-1. GRÃFICOS ANIMADOS DATOS MUJERES EN LA RESIDENCIA -->
+
+
+			<div class="burbujas" style="margin-left: 5%; margin-top: 8%">
+				<span class="tituloseccion" style="padding-bottom: 5%;">Â¿QuÃ© hacÃ­an las mujeres en la Residencia? </span>
+				<iframe src='https://flo.uri.sh/story/2483031/embed' title='Interactive or visual content' class='flourish-embed-iframe' 
+					frameborder='0' scrolling='no' style='width:95%;height:650px; margin-top: 1%;' 
+					sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'>
+					</iframe>
+			</div>
+
+
+          <!--GRAFICO BARRAS APILADAS-->
+		<div style="background-color:white; width:100%; height:865px; margin-bottom: 1px; padding-top: 50px; padding-left: 5%;">
+			<span class="tituloseccion">EvoluciÃ³n de universitarias por disciplina</span>
+			<div>
+					<iframe src='https://flo.uri.sh/visualisation/18671881/embed' title='Interactive or visual content' class='flourish-embed-iframe' 
+					frameborder='0' scrolling='no' style='width:100%;height:650px; padding-right: 5%; margin-top: 1%' 
+					sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'>
+					</iframe>
+			</div>
+		
+		</div>
+		  <!-- SECCIÃN-3. MAPAS ORIGEN  -->
+		  
+		  <div class="bgimg-3">
+			<div class="caption" style="padding-left: 5.4%" >
+			  <span class="Titul">El magnetismo de la Residencia</span>
+			</div>
+			<div class="fadeInUp-animation" style="width:600px; padding-top: 650px; padding-left: 5%">
+				<span class="piedefotobg">
+			<!-- <div class="" style="width:500px; padding-top: 450px; padding-left: 5%"> -->
+				<!-- <span class="piedefotobg" style="position: absolute;bottom: 0;width: 60%;"> -->
+				
+					Dos antiguas compaÃ±eras de la Residencia de SeÃ±oritas, la profesora del Instituto-Escuela Carmen 
+					Castilla (primera por la derecha) y MarÃ­a DÃ­ez de OÃ±ate (segunda por la izquierda), con otras profesoras en 
+					la escuela de verano de Middlebury College, 1922
+				</span>
+			</div> 
+		  </div>
+		  
+
+				<section style="position:relative; background-color:white; padding-left:5.4%; padding-top:4%; height: 800px">
+
+					<article  class="left_article" >
+				<span class="tituloseccion" style="margin-bottom: 5%">Atrajo a mujeres de casi<br>todas las zonas del paÃ­s</span>
+				
+				<div class="fadeInUp-animation1" style=" width:350px; margin-top: 5%; margin-bottom: 10%;">
+					<p  class="parrafoseccion">
+						Las residentes venÃ­an de todas partes de EspaÃ±a, si bien <u>el grupo mÃ¡s numeroso proviene de LeÃ³n</u>. La direcciÃ³n de la Residencia 
+						aprovechÃ³ la fuerte impronta y los valores de la InstituciÃ³n Libre de EnseÃ±anza (ILE) en LeÃ³n,
+						 <a href="https://revpubli.unileon.es/index.php/anada/article/view/7008"> promovidos por la FundaciÃ³n Sierra Pambley</a>.
+						 La influencia krausista e institucionista, a travÃ©s, entre otros, de Gumersindo de AzcÃ¡rate, animÃ³ a muchas 
+						 familias progresistas de la regiÃ³n a enviar a sus hijas a la Residencia, resultando en un nÃºmero considerable de estudiantes leonesas en la instituciÃ³n.
+					</p></div>
+					</article>
+
+				
+				
+				<!--FLOURISH-2 mapa espaÃ±a-->
+				<aside class="right_article">
+					<iframe src='https://flo.uri.sh/visualisation/18671971/embed' title='Interactive or visual content' class='flourish-embed-iframe' 
+					frameborder='0' scrolling='no' style="width: 100%; height: 675px;margin-bottom: 100px" sandbox='allow-same-origin allow-forms allow-scripts 
+					allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+				</aside>
+			</section>
+
+			<section style="position:relative; background-color:white; padding-left:5.4%; padding-top:5%;  margin-bottom: 8% ; height:100%">	
+
+				<!-- IMAGEN COLORIA-1 -->
+				<article  class="left_article1" >
+					<div class="contenedor" >
+						 <img src="IMAGE/Adrados_Herminia.jpg" />
+					  <img class="top" src="IMAGE/Adrados_HerminiaC.jpg" />
+					</div>
+					<div style="float: left; margin-top:92%; padding-bottom: 2%;"><span class="piefoto" style=" width:10%; ">
+						Las residentes Herminia Adrados y Pilar Rosado de la Iglesia, ambas estudiantes  <br> de Medicina, delante de uno de los edificios de la Residencia de SeÃ±oritas, <br>curso 1930-1931. Archivo familiar Bonet Rosado, Valencia </span>
+					</div>
+				  </article>
+								  
+				<!-- TEXTO IMAGENIA-1 -->
+				  <aside class="right_article1">
+								<div class="fadeInUp-animation1" > 
+								<span style=" font-size:1.5rem; text-align:left;  width:20%; line-height:1.7rem; font-family:AugusteSansPro-Bold; color:#bfa8cc"> 
+									Recordar el pasado a todo color</span>
+									<p  class="parrafoseccion" style="margin-top: 5%">Hemos dado vida a las mujeres de la Residencia  
+										<U>coloreando las fotografÃ­as del archivo. </U>
+										Puedes verlas en su formato original pasando el 
+										cursor por encima o con la recreaciÃ³n <u>realizada con IA.</u>
+									</p>
+								</div>
+					</aside>
+			</section>
+		
+	
+			  <!--MAPAMUNDI -->
+			  <section style="position:relative; background-color:white; ">
+				<div style="background-color:white; width:65%; margin:auto !important; text-align: left;">
+					<span class="tituloseccioncentro" style="width:100%;" >El foco internacional</span>
+				</div>
+					
+					<div class="fadeInUp-animation1" style=" width:65%; margin:auto !important; text-align: left; padding-bottom:10%"><span  class="parrafoseccioncentro">
+						<br>Las residentes extranjeras representaban el 13% del total de mujeres (mÃ¡s de 400 residentes entre 1915 y 1936). La relaciÃ³n entre la Residencia de SeÃ±oritas de Madrid y los <i>colleges</i> estadounidenses de mujeres entre 1919 y 1936 fue muy fructÃ­fera. 
+						Se establecieron <a href="https://dialnet.unirioja.es/servlet/articulo?codigo=5097307">polÃ­ticas de intercambio de estudiantes</a> que promovieron el enriquecimiento cultural y acadÃ©mico de ambas partes, basadas en la 
+						solidaridad y el apoyo mutuo, con un enfoque en modernizar la educaciÃ³n de las mujeres y ofrecerles  <u> oportunidades internacionales.</u>
+						Fundados por mujeres y para mujeres, proporcionaban un modelo de educaciÃ³n avanzada y autÃ³noma.
+						 <br>Las profesoras promovieron activamente becas e intercambios, lo que permitiÃ³ a muchas espaÃ±olas estudiar en Estados Unidos y viceversa. 
+						AdemÃ¡s, estas polÃ­ticas ayudaron a introducir en EspaÃ±a mÃ©todos educativos modernos, como el Ã©nfasis en las  <u> ciencias experimentales, 
+						los idiomas y la educaciÃ³n fÃ­sica. </u> 
+						</span></div>
+	
+				   <!-- flourish. MAPAMUNDI -->
+				   <div style=" width: 100%; height: 700px; margin-top: -6%; padding-left:4%; padding-right: 4%;">
+						<iframe src='https://flo.uri.sh/visualisation/18767335/embed' title='Interactive or visual content' 
+						class='flourish-embed-iframe' frameborder='0' scrolling='no' style="width:100%; height: 100%;" 
+						sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox 
+						allow-top-navigation-by-user-activation'></iframe></div>
+		</section>
+				   
+		<!--IMAGEN COLORIA-2-->
+		<section style="position:relative; background-color:white; padding-left:5.4%; padding-top:8%; height:100%">
+			  <article  class="left_article1" >
+				<div class="contenedor" >
+					 <img src="IMAGE/HuntingtonSusanBN.jpg" />
+				  <img class="top" src="IMAGE/HuntingtonSusanC.jpg" />
+				</div>
+				<div style="float: left; margin-top:72%"><span class="piefoto" style=" width:10%; ">
+					Susan Huntington, profesora del Instituto Internacional </span></div>
+				</article>
+			
+			<!-- TEXTO IMAGENIA-2  -->
+			  <aside class="right_article1">
+					<div class="fadeInUp-animation1" > 
+						<span style=" font-size:1.5rem; text-align:left;  width:20%; line-height:1.7rem; font-family:AugusteSansPro-Bold; color:#bfa8cc;"> 
+								La importancia de la presencia <br>de extranjeras</span>
+							<p class="parrafoseccion1" style="margin-top: 5%">Un ejemplo de esta implicaciÃ³n
+								fue el de Susan Huntington, <a href="https://www.iie.es/2017/05/15/mujeres-serie-susan-huntington-vernon/"> 
+								quien impulsÃ³ el intercambio educativo entre EspaÃ±a y Estados Unidos </a> en su 
+								fase mÃ¡s temprana. A partir de 1917, apoyÃ³ de forma decisiva la colaboraciÃ³n del Instituto Internacional con la JAE en el Instituto-Escuela 
+								y la Residencia de SeÃ±oritas. En 1932 recibiÃ³ el homenaje del gobierno espaÃ±ol por su apoyo Â«material y moralÂ» a la 
+								fundaciÃ³n de la Residencia de SeÃ±oritas. En este acto, celebrado en Fortuny 53 âen ese momento sede de la Residencia de SeÃ±oritas 
+								y anteriormente del Instituto Internacional (1903-1927)â, fue bautizado el edificio con el nombre de <i>Casa Susana Huntington</i>.</p>
+
+					</div>
+			  </aside>
+		</section>
+		
+
+
+		
+		
+		
+		<!-- SECCIÃN-3. MAPA EUROPA Y EEUU -->
+				<section style="position:relative; background-color:white; padding-left:5.4%; padding-top:1%; height: 600px">
+
+					<article  class="left_article" >
+				<span class="tituloseccion" style="margin-bottom: 5%; width: 35%; line-height: 2.1rem;">La mayorÃ­a fueron europeas <br>y estadounidenses</span>
+				
+				<div class="fadeInUp-animation1" style=" width:350px; margin-top: 5%; margin-bottom: 10%;">
+					<p  class="parrafoseccion">Las extranjeras venÃ­an a la Residencia de SeÃ±oritas sobre todo a estudiar espaÃ±ol y provenÃ­an principalmente de <strong>Estados Unidos</strong>, pero tambiÃ©n 
+						habÃ­a estudiantes de otros paÃ­ses europeos como <strong>Francia, Alemania y el Reino Unido</strong>. Este intercambio no solo enriquecÃ­a 
+						el ambiente acadÃ©mico, sino que tambiÃ©n fomentaba una red internacional de mujeres profesionales y acadÃ©micas. </p></div>
+					</article>
+				
+				<!--FLOURISH-2 mapa Europa EEUU-->
+				<aside class="right_article">
+					<iframe src='https://flo.uri.sh/visualisation/18672022/embed' title="Interactive or visual content" 
+					class="flourish-embed-iframe" frameborder='0' scrolling='no' style='width:100%;height:530px;' 
+					sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups 
+					allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+				</aside>
+			</section>
+		
+			<section style="position:relative; background-color:white; padding-left:5.4%; padding-top:8%; height:100%">	
+
+				<!--IMAGEN COLORIA-3-->
+			<article  class="left_article1" >
+			
+				<div class="contenedor1" style="margin-top:1%">
+					 <img src="IMAGE/BarnesDoroteaBN.jpg" />
+				  <img class="top"  src="IMAGE/BarnesDoroteaC.png" />
+				</div>
+				<div style="float: left; margin-top:50%"><span class="piefoto" style=" width:15%; ">
+					Dorotea BarnÃ©s GonzÃ¡lez trabajando en el Laboratorio </span></div>
+			</article>
+	
+			<!--TEXTO IMAGENIA 3 -->
+			  <aside class="right_article1" >
+							<div class="fadeInUp-animation1"> 
+							<span style=" font-size:1.5rem; text-align:left;  width:20%; line-height:1.7rem; font-family:AugusteSansPro-Bold; color:#bfa8cc;"> Una pionera en el estudio de QuÃ­micas</span>
+								<p  class="parrafoseccion1" style="margin-top: 2%">Dorotea BarnÃ©s GonzÃ¡lez, nacida en 1904 en Pamplona, fue una de las pioneras espaÃ±olas 
+									en QuÃ­mica, tanto en investigaciÃ³n como en docencia, durante la Edad de Plata. Doctora y profesora de instituto, su 
+									trabajo de investigaciÃ³n fue clave en la incorporaciÃ³n de tÃ©cnicas como la espectroscopia Raman a los departamentos de quÃ­mica en EspaÃ±a. 
+									Fue una de las mujeres que se beneficiÃ³ de las oportunidades educativas proporcionadas por la Residencia de SeÃ±oritas. Si bien no fue residente, se formÃ³
+									en el Laboratorio Foster y <u>fue becada por la JAE en 1929, en el Smith College de Northampton, Massachusetts, </u>donde se especializÃ³ en la investigaciÃ³n en el campo 
+									de las tÃ©cnicas del anÃ¡lisis espectral, bajo la direcciÃ³n de Gladys Anslow, doctora en FÃ­sica por la Universidad de Yale y profesora del Departamento de QuÃ­mica del Smith College.
+									</p>
+							</div>
+						</aside>
+		</section>
+		
+
+		<div style="background-color: white; height: 100px;"></div>
+				
+		  <!-- SECCIÃN-4. SISTEMA PEDAGÃGICO -->
+		  
+		  <div class="bgimg-4">
+			  <div class="caption" style="padding-left: 5.4%" >
+			    <span class="Titul">InnovaciÃ³n pedagÃ³gica</span>
+			  </div>
+			   <div class="fadeInUp-animation" style="padding-top: 850px; padding-left: 5.6%;width: 30%;">
+			   <!-- <div class="" style="padding-top: 550px; padding-left: 5.6%;width: 30%;"> -->
+					<p  class="piedefotobg" >
+						Equipo de hockey de la Residencia de SeÃ±oritas, aÃ±os treinta. <br>Instituto Internacional en EspaÃ±a
+					</p>
+			  </div>
+		  </div>
+		
+		
+				<section style="position:relative; background-color:white; padding-left:5.4%; padding-top:4%; height: 900px">
+
+					<article  class="left_article" >
+				<span class="tituloseccion" style="z-index:1050">El hub: de los <br><i>colleges</i> a la vanguardia <br>pedagÃ³gica</span>
+			   <br>
+		       <p  style="font-size:1rem; text-align: left; font-family:'Inter-light'"><br>El sistema pedagÃ³gico de la Residencia de SeÃ±oritas inspirado en los <i>colleges</i> internacionales, 
+				especialmente en los modelos britÃ¡nicos y estadounidenses se basaba en promover una educaciÃ³n integral que combinaba el desarrollo acadÃ©mico con la formaciÃ³n personal y social.
+				La Residencia de SeÃ±oritas se convirtiÃ³ <u>en lo que hoy se denominarÃ­a como hub,</u> un nÃºcleo de intercambio interdisciplinar que impulsÃ³ el desarrollo de las residentes. 
+				No solo asistÃ­an a clases universitarias, sino que tambiÃ©n participaban en una variedad de actividades extracurriculares que incluÃ­an conferencias, talleres, deportes 
+				y actividades culturales. La idea era fomentar un ambiente de aprendizaje continuo y multidisciplinar, donde las estudiantes pudieran desarrollar habilidades crÃ­ticas y sociales, 
+				ademÃ¡s de sus conocimientos acadÃ©micos.
+				<br>
+				La Residencia tambiÃ©n promovÃ­a la convivencia y el intercambio de ideas entre estudiantes y profesoras, creando un ambiente de comunidad y apoyo mutuo. Este enfoque holÃ­stico buscaba empoderar a las mujeres, 
+				preparÃ¡ndolas para ser profesionales competentes y ciudadanas activas en la sociedad.
+				<br>
+				En resumen, el sistema pedagÃ³gico de la Residencia de SeÃ±oritas era innovador, laico y progresista, buscaba formar mujeres independientes y preparadas para enfrentar los desafÃ­os de su tiempo.</p>	
+					</article>
+				
+				<!--gif sistema pedagÃ§ogico-->
+				<aside class="right_article" >		
+				 	 <img src="IMAGE/SistemaPedagogico.gif" width="1000" height="1032" alt=""/> 
+				</aside>
+		</section>
+		
+    <div style="background-color: white; height: 100px;"></div>
+		  
+		  <!-- SECCIÃN-5. REFERENTES-->
+		  <div class="bgimg-5">
+			 <div class="caption" style="padding-left: 5.4%" >
+			   <span class="Titul" >Grandes referentes</span>
+		     </div>
+		
+			  <div class="fadeInUp-animation1" style="width:35%; padding-top: 850px; padding-left: 5%">
+				<span class="piedefotobg" >
+					Victoria Ocampo con un grupo de residentes el dÃ­a de su conferencia 
+					Â«SupremacÃ­a del alma y de la sangreÂ» en la Residencia de SeÃ±oritas, Madrid, 9 de enero de 1935. Archivo Regional de la Comunidad de 
+					Madrid, Fondo fotogrÃ¡fico Santos Yubero
+				</span>
+			 </div> 
+			 </div>
+			  
+			 <section style="position:relative; background-color:white; padding-top:5%">
+				<div style="width:100%; margin:auto !important; text-align: center;">
+					<p class="tituloseccioncentro" style="margin-left: 25%;">Mujeres referentes que pasaron por la Residencia</p>
+					<br>
+				
+		      		 <div class="fadeInUp-animation">
+					<p class="parrafoseccioncentro" style="width:50%; margin:auto !important; text-align: left; padding-top: 2%; padding-bottom:3.5%" >
+					Â¿SabÃ­as que hay un <b>sesgo</b> 
+					importante de mujeres en la <b>Wikipedia</b>? Solo un 20% de las biografÃ­as que hay publicadas en 2024 pertenecen a mujeres por falta de referencias biblogrÃ¡ficas. 
+					Â¿Quieres contribuir a completar sus <b>biografÃ­as</b>  o a crear <b>nuevas</b>? Utiliza nuestro <b>bot VictorIA</b> para incorporar <b>fuentes</b> y referencias <b>fiables</b>. 
+					Para aÃ±adir mÃ¡s informaciÃ³n, haz clic <a href ="https://es.wikipedia.org/wiki/Ayuda:Tu_primer_art%C3%ADculo">aquÃ­.</a>
+					</p>
+					</div>
+			   </div>
+
+			 <!-- SECCIÃN-4. FLOURISH-4 -->
+
+			 <!-- <iframe src='https://flo.uri.sh/visualisation/18672052/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' 
+			 scrolling='no' style='width:100%; height:800px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'>
+		     </iframe> -->
+
+			 <!-- Prueba -->
+			 <!-- <iframe src='https://flo.uri.sh/visualisation/18830737/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' 
+			 scrolling='no' style='width:100%;height:800px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+			</section> -->
+			<div class="flourish-embed flourish-cards" data-src="visualisation/18830737"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+		  
+	<!--COMENTARIO: CÃDIGO BOT-->
+	<div data-airops-widget="c4f555b8-017c-4a6c-b1af-6578113b9ffa" data-airops-init="true"></div>
+	<link rel="stylesheet" href="https://assets.airops.com/widget/index.css">
+	<script src="https://assets.airops.com/widget/index.js"></script>
+	<!--FIN CÃDIGO BOT-->
+			  
+			<script src="main.js"></script>
+
+	</body>
+	
+	<footer>
+	
+		<div class="row" style="margin-left:3%">
+			<div class="columns"> 
+				
+				<span class="footer-sectiontitulo" >RealizaciÃ³n</span>
+				<p class="footer-texto" style=" margin-left: -20%"><br>Un proyecto de la Residencia 
+					<br>de Estudiantes realizado <br>por <a href="https://www.storydata.es">Storydata</a></span>  
+					  </p>  
+					<br>
+			</div>
+			<div class="columns">
+			 
+			   <span class="footer-sectiontitulo" >metodologÃ­a</span>
+			  <p class="footer-texto" style=" margin-left: -20%"><br>Consulta la descripciÃ³n<br> de la <a href="https://docs.google.com/document/d/1UESUooN_ilJ1ZtngC-ZNKAJmPbHgJjAnTZb_9i1U7og/edit?usp=sharing"> metodologÃ­a y las fuentes</a> <br>utilizadas en el proyecto.</p>
+			</div>
+			<div class="columns">
+		  
+			  <span class="footer-sectiontitulo" style=" margin-left: -20%">crÃ©ditos</span>
+					<ul class="footer-texto" style=" margin-left: -20%">
+					<li><br>Cristina Claverol - DiseÃ±o y desarrollo web</li>
+					  <li>Karel de Pourcq - Datos y programaciÃ³n visualizaciÃ³n</li>
+					  <li>Carlos Albaladejo - IA, perfiles y desarrollo web</li>
+					  <li>Eli Vivas - CoordinaciÃ³n y redacciÃ³n</li>
+					  <li>Almudena de la Cueva - DocumentaciÃ³n</li>
+					  <!-- Agrega mÃ¡s personas y roles segÃºn sea necesario -->
+					</ul>
+			</div>
+	
+		</div>	
+		<div style="width:95%; height:2px; background-color:white; margin-left: 2.5%; margin-top: 2%;"></div>
+		<div >
+			<p class="footer-subtitulo"  style="width:100%;" ><br>VER OTROS  CONTENIDOS RELACIONADOS EN LA RESIDENCIA DE ESTUDIANTES</p>
+	
+			<div class="row" style="margin-left:3%">
+				<div class="columns">
+					<ul class="footer-texto" style=" margin-left: 20%">
+						<li><a href="https://devresidenciadeestudiantes.com/residencia-de-senoritas"> â¢ PÃ¡gina de historia de la RdS</a></li>
+						<li><a href="https://devresidenciadeestudiantes.com/api/tienda/producto/mujeres-en-vanguardia/"> â¢ CatÃ¡logo Mujeres en Vanguardia</a></li>
+					</ul>
+			</div>
+			<div class="columns">
+				<ul class="footer-texto" >
+					<li><a href="https://devresidenciadeestudiantes.com/podcast/la-voz-de-los-chopos/mujeres-en-vanguardia"> â¢ Podcast</a></li>
+				</ul>
+			</div>
+			<div class="columns">
+					<ul class="footer-texto" >
+						<li><a href="https://devresidenciadeestudiantes.com/actividades/modernas-por-asociacionel-lyceum-club-femenino-de-madrid-y-sus-legados-1926-1960
+							"> â¢ Mediateca: Lyceum Club Femenino de Madrid</a></li>
+						<li><a href="https://devresidenciadeestudiantes.com/actividades/educacion-y-feminismo-la-residencia-de-senoritas-1915-1936"> â¢ Mediateca: Residencia de SeÃ±oritas</a></li>
+					</ul>
+			</div>	
+		</div>
+		</div>
+				 <div class="logo-container">
+					<a href="http://wwww.storydata.es"> <img src="https://www.storydata.es/wp-content/uploads/2018/03/storydata-retina.png" alt="Logo 1"></a> 
+					  <img style="width: 10%" src="IMAGE/LOGO.resi.png" alt="Logo 2">
+					  <!-- Agrega mÃ¡s logos segÃºn sea necesario -->
+			
+						
+					</div>	
+					
+		
+	</footer>
+</html>
